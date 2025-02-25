@@ -75,7 +75,6 @@ body {
     padding: 1rem 2rem;
     font-size: 1.5rem;
     cursor: pointer;
-    margin-bottom: 1rem;
 }
 
 .hero button:hover {
@@ -83,14 +82,24 @@ body {
 }
 
 
-.sec1 {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    padding: 5rem;
-    margin-top: 2rem; /* Added margin to create space above the section */
+
+/* New CSS for sections 2-4 */
+.sec2, .sec3, .sec4 {
+    padding: 2rem;
+    background-color: #34495e;
+    margin: 1rem 0;
+    border-radius: 8px;
 }
 
+.sec2 h2, .sec3 h2, .sec4 h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sec2 p, .sec3 p, .sec4 p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
 
 .footer {
     background-color: #1a1d23;
